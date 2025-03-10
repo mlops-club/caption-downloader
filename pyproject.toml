@@ -1,0 +1,13 @@
+[project]
+name = "yt-dlp-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp>=2025.2.19",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
